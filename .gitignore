@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.env.*
+# data and trained weights stay out of git
+data/
+*.pkl
+*.pth
+*.pt
+*.npy
+*.npz
+*.ply
+*.off
+*.zip
