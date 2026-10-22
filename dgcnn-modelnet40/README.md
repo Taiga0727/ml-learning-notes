@@ -63,6 +63,8 @@ Load the weights with `torch.load("models/dgcnn_model_512.pth", map_location="cp
 
 ## Run
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taiga0727/ml-learning-notes/blob/main/dgcnn-modelnet40/notebooks/dgcnn_modelnet40.ipynb)
+
 1. Open `notebooks/dgcnn_modelnet40.ipynb` in Google Colab with a GPU runtime.
 2. Put your `kaggle.json` at `MyDrive/kaggle.json`; the notebook downloads ModelNet40 from Kaggle (about 1.9 GB) and unzips it to `MyDrive/Pointnet/ModelNet40`.
 3. Run the cells in order. Paths are Colab paths.

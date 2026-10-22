@@ -1,0 +1,8 @@
+# Libraries imported by notebooks/dgcnn_modelnet40.ipynb (written for Google Colab, which already ships most of them)
+torch
+open3d
+numpy
+matplotlib
+scikit-learn
+tqdm
+kaggle

@@ -28,8 +28,8 @@ flowchart LR
 ## Layout
 
 ```
-svm-spider-scorpion/   notebook, figures, data notes
-dgcnn-modelnet40/      notebook, trained weights (6.9 MB), metadata CSV, figures, data notes
+svm-spider-scorpion/   notebook, figures, data notes, requirements.txt
+dgcnn-modelnet40/      notebook, trained weights (6.9 MB), metadata CSV, figures, data notes, requirements.txt
 ```
 
-Datasets are not redistributed; each project's `data/README.md` says where to get them. Notebook paths are Google Colab paths (`/content/drive/MyDrive/...`). License: not chosen yet.
+Datasets are not redistributed; each project's `data/README.md` says where to get them. Notebook paths are Google Colab paths (`/content/drive/MyDrive/...`). License: [MIT](LICENSE) for the code and write-ups; the DGCNN weights were trained on ModelNet40, so check that dataset's terms before using them for anything else.

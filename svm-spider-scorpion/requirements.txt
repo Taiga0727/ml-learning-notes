@@ -1,0 +1,12 @@
+# Libraries imported by notebooks/svm_classification.ipynb (written for Google Colab, which already ships most of them)
+albumentations
+opencv-python
+pillow
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+split-folders
+tqdm
+kagglehub

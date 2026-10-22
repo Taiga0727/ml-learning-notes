@@ -43,6 +43,8 @@ The 4,096-dimensional features are projected to 2D with PCA only to draw the dec
 
 ## Run
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taiga0727/ml-learning-notes/blob/main/svm-spider-scorpion/notebooks/svm_classification.ipynb)
+
 1. Open `notebooks/svm_classification.ipynb` in Google Colab.
 2. The notebook downloads the dataset with `kagglehub` (see [`data/README.md`](data/README.md)) and builds its working folders under `MyDrive/SVM/`.
 3. Run the cells in order. Paths are Colab paths.
