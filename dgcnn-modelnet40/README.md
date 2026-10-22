@@ -68,3 +68,7 @@ Load the weights with `torch.load("models/dgcnn_model_512.pth", map_location="cp
 1. Open `notebooks/dgcnn_modelnet40.ipynb` in Google Colab with a GPU runtime.
 2. Put your `kaggle.json` at `MyDrive/kaggle.json`; the notebook downloads ModelNet40 from Kaggle (about 1.9 GB) and unzips it to `MyDrive/Pointnet/ModelNet40`.
 3. Run the cells in order. Paths are Colab paths.
+
+## Credits
+
+The EdgeConv helpers `knn` and `get_graph_feature` and the layer layout follow the reference implementation of Wang et al., *Dynamic Graph CNN for Learning on Point Clouds* (ACM Transactions on Graphics, 2019): [WangYueFt/dgcnn](https://github.com/WangYueFt/dgcnn), MIT licence, Copyright (c) Massachusetts Institute of Technology and its affiliates. ModelNet40 is from Wu et al., *3D ShapeNets: A Deep Representation for Volumetric Shapes* (CVPR 2015).
