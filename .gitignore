@@ -3,13 +3,9 @@ __pycache__/
 *.pyc
 .env
 .env.*
-# data and trained weights stay out of git
-data/
-*.pkl
-*.pth
-*.pt
+# raw datasets and generated working folders stay out of git
+*.zip
+*.off
 *.npy
 *.npz
 *.ply
-*.off
-*.zip
