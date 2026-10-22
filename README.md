@@ -1,6 +1,12 @@
 # ML Learning Notes
 
-Two small experiments from coursework and self-study, kept as honest learning notes rather than finished projects. Each one has its own pipeline diagram, results, and a list of what is wrong or missing.
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-SVC-F7931E?logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-DGCNN-EE4C2C?logo=pytorch&logoColor=white)
+![Open3D](https://img.shields.io/badge/Open3D-point%20clouds-1F6FEB)
+![Colab](https://img.shields.io/badge/run%20on-Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)
+
+Two small experiments from coursework and self-study, kept as honest learning notes rather than finished projects. Each has a pipeline diagram, its results and a list of what is wrong or missing.
 
 | Project | Question | Data | Result as logged | Status |
 |---|---|---|---|---|
@@ -25,11 +31,4 @@ flowchart LR
 - A model that learns neighbourhoods of points (EdgeConv) trains well even in one epoch, but one epoch is far from the roughly 92% the DGCNN paper reports with a long schedule.
 - Data hygiene matters as much as the model: ModelNet40's `.off` files need a header repair before Open3D can read them.
 
-## Layout
-
-```
-svm-spider-scorpion/   notebook, figures, data notes, requirements.txt
-dgcnn-modelnet40/      notebook, trained weights (6.9 MB), metadata CSV, figures, data notes, requirements.txt
-```
-
-Datasets are not redistributed; each project's `data/README.md` says where to get them. Notebook paths are Google Colab paths (`/content/drive/MyDrive/...`). License: [MIT](LICENSE) for the code and write-ups; the DGCNN weights were trained on ModelNet40, so check that dataset's terms before using them for anything else.
+Datasets are not redistributed; each project's `data/README.md` says where to get them. Notebook paths are Google Colab paths (`/content/drive/MyDrive/...`). [MIT](LICENSE) for the code and write-ups; the DGCNN weights (6.9 MB) were trained on ModelNet40, so check that dataset's terms before using them for anything else.
